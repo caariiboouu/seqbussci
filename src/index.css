@@ -1,0 +1,124 @@
+body {
+  background-color: #1c1c31;
+}
+img {
+  width: 100%;
+}
+h1.ant-typography,
+.ant-typography h1,
+h2.ant-typography,
+.ant-typography h2,
+h3.ant-typography,
+.ant-typography h3,
+h4.ant-typography,
+.ant-typography h4,
+h5.ant-typography,
+.ant-typography h5,
+h6.ant-typography,
+.ant-typography h6 {
+  color: #fff;
+}
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.head {
+  padding: 0 2% 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head h1.ant-typography,
+.head .ant-typography h1 {
+  font-size: 5rem;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+[data-theme="dark"] .site-layout-content {
+  background: #141414;
+}
+[data-theme="dark"] .logo {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #73ba4e !important;
+}
+
+.light,
+.dark {
+  padding: 2rem 3%;
+}
+
+.light h1.ant-typography,
+.light .ant-typography h1,
+.light h2.ant-typography,
+.light .ant-typography h2,
+.light h3.ant-typography,
+.light .ant-typography h3,
+.light h4.ant-typography,
+.light .ant-typography h4,
+.light h5.ant-typography,
+.light .ant-typography h5,
+.light h6.ant-typography,
+.light .ant-typography h6 {
+  color: #1c1c31 !important;
+}
+
+.dark {
+  background-color: #1c1c31;
+}
+
+.logowrap {
+  max-width: 15rem;
+  margin-left: 4%;
+  position: relative;
+  z-index: 300;
+}
+
+.logobracket {
+  position: absolute;
+  top: 2rem;
+  margin: auto 2%;
+  width: 92%;
+  border: 0.4rem solid #fff;
+  border-bottom: none;
+  height: 3.5rem;
+  z-index: 200;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub,
+.ant-layout-header {
+  background: transparent !important;
+}
+
+.ant-layout-header {
+  max-width: 25rem;
+  right: 0;
+  float: right;
+}
+
+.seqgreen {
+  color: #73ba4e;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.showcasetitle {
+  font-size: 9vw;
+  font-style: italic;
+}
